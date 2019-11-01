@@ -72,16 +72,15 @@ public class DetailActivity extends AppCompatActivity {
     // ***
     // TODO - Task 4 - Share the Current Candy with an Intent
     // ***
-
+/*
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        if (item.getItemId()==R.id.info) {
-            Intent infoIntent = new Intent(DetailActivity.this, InfoActivity.class);
-            startActivity(infoIntent);
-        }
+
+        Intent infoIntent = new Intent(DetailActivity.this, InfoActivity.class);
+        startActivity(infoIntent);
 
         return super.onOptionsItemSelected(item);
 
-    }
+    } */
 }
